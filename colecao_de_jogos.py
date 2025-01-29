@@ -8,7 +8,7 @@ def jogo_de_adivinhacao():
     while quantidadeTentativas > 0 and not jogadorAcertou:
     
         try:
-            chute = (input("Digite um número inteiro entre 0 e 100: "))
+            chute = int(input("Digite um número inteiro entre 0 e 100: "))
 
             if chute == alvo:
                 print("Parabéns, você acertou!!!")
